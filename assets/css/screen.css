@@ -794,6 +794,10 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-content h1,
 .post-full-content h2,
 .post-full-content h3,
+{
+  min-width: 100;
+  font-family: -apple-system, "Baloo Paaji", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 .post-full-content h4,
 .post-full-content h5,
 .post-full-content h6,
@@ -805,7 +809,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-content blockquote,
 .post-full-comments,
 .footnotes {
-    min-width: 100%;
+    min-width: 100;
 }
 
 .post-full-content li {
