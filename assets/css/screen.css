@@ -23,6 +23,7 @@ production stylesheet in assets/built/screen.css
 9.  Error Template
 10. Subscribe Overlay
 11. Site Footer
+12. Casper Changes - Jake
 
 */
 
@@ -2255,7 +2256,7 @@ Usage (In Ghost editor):
     }
 }
 
-/* 12. Input Boxes
+/* 12. Changes to Casper
 /* ---------------------------------------------------------- */
 /* Quizzes */
 input:valid,
@@ -2292,3 +2293,10 @@ div.answers { display:none; }
 .search-box-width {
 	width: 320px;
 }
+
+/* HCB Comment Box Formatting
+#HCB_comment_box input {
+  background: white;
+  border-color: white;
+}
+*/
